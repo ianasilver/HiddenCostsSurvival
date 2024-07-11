@@ -1,0 +1,47 @@
+Call:corr.test(x = HC_CC[, c("days_detained", "detained_MT1D", "detained_MT3D", 
+    "detained_MT7D", "PreD_FTA", "PostD_FTA", "PreD_NCA", "PostD_NCA", 
+    "PreD_NVCA", "PostD_NVCA", "PreD_CON", "PostD_CON")])
+Correlation matrix 
+              days_detained detained_MT1D detained_MT3D detained_MT7D PreD_FTA PostD_FTA PreD_NCA PostD_NCA PreD_NVCA PostD_NVCA PreD_CON PostD_CON
+days_detained          1.00          0.29          0.45          0.54     0.05      0.04     0.09      0.04      0.10       0.02     0.09      0.06
+detained_MT1D          0.29          1.00          1.00          1.00     0.11      0.09     0.17      0.10      0.15       0.06     0.17      0.14
+detained_MT3D          0.45          1.00          1.00          1.00     0.15      0.13     0.21      0.14      0.21       0.08     0.21      0.17
+detained_MT7D          0.54          1.00          1.00          1.00     0.13      0.13     0.21      0.14      0.23       0.08     0.21      0.16
+PreD_FTA               0.05          0.11          0.15          0.13     1.00      0.15     0.49      0.11      0.31       0.02     0.49      0.21
+PostD_FTA              0.04          0.09          0.13          0.13     0.15      1.00     0.13      0.32      0.09       0.13     0.13      0.17
+PreD_NCA               0.09          0.17          0.21          0.21     0.49      0.13     1.00      0.15      0.50       0.05     1.00      0.22
+PostD_NCA              0.04          0.10          0.14          0.14     0.11      0.32     0.15      1.00      0.13       0.50     0.15      0.14
+PreD_NVCA              0.10          0.15          0.21          0.23     0.31      0.09     0.50      0.13      1.00       0.09     0.50      0.15
+PostD_NVCA             0.02          0.06          0.08          0.08     0.02      0.13     0.05      0.50      0.09       1.00     0.05      0.06
+PreD_CON               0.09          0.17          0.21          0.21     0.49      0.13     1.00      0.15      0.50       0.05     1.00      0.22
+PostD_CON              0.06          0.14          0.17          0.16     0.21      0.17     0.22      0.14      0.15       0.06     0.22      1.00
+Sample Size 
+              days_detained detained_MT1D detained_MT3D detained_MT7D PreD_FTA PostD_FTA PreD_NCA PostD_NCA PreD_NVCA PostD_NVCA PreD_CON PostD_CON
+days_detained         31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+detained_MT1D         31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+detained_MT3D         24219         24219         24219         21863    24219     24219    24219     24219     24219      24219    24219     24219
+detained_MT7D         21863         21863         21863         21863    21863     21863    21863     21863     21863      21863    21863     21863
+PreD_FTA              31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PostD_FTA             31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PreD_NCA              31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PostD_NCA             31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PreD_NVCA             31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PostD_NVCA            31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PreD_CON              31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+PostD_CON             31598         31598         24219         21863    31598     31598    31598     31598     31598      31598    31598     31598
+Probability values (Entries above the diagonal are adjusted for multiple tests.) 
+              days_detained detained_MT1D detained_MT3D detained_MT7D PreD_FTA PostD_FTA PreD_NCA PostD_NCA PreD_NVCA PostD_NVCA PreD_CON PostD_CON
+days_detained             0             0             0             0        0         0        0         0         0          0        0         0
+detained_MT1D             0             0             0             0        0         0        0         0         0          0        0         0
+detained_MT3D             0             0             0             0        0         0        0         0         0          0        0         0
+detained_MT7D             0             0             0             0        0         0        0         0         0          0        0         0
+PreD_FTA                  0             0             0             0        0         0        0         0         0          0        0         0
+PostD_FTA                 0             0             0             0        0         0        0         0         0          0        0         0
+PreD_NCA                  0             0             0             0        0         0        0         0         0          0        0         0
+PostD_NCA                 0             0             0             0        0         0        0         0         0          0        0         0
+PreD_NVCA                 0             0             0             0        0         0        0         0         0          0        0         0
+PostD_NVCA                0             0             0             0        0         0        0         0         0          0        0         0
+PreD_CON                  0             0             0             0        0         0        0         0         0          0        0         0
+PostD_CON                 0             0             0             0        0         0        0         0         0          0        0         0
+
+ To see confidence intervals of the correlations, print with the short=FALSE option

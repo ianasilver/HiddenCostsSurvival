@@ -1,0 +1,85 @@
+
+Call:
+survreg(formula = Surv(DT_NVCA, NVCA_Censor) ~ detained_MT7D + 
+    PreD_NVCA + AGE_CA + C_VIOL + Prior_IN + Pending_Charge + 
+    charge_cnt + as.factor(MSCL) + as.factor(MSCO) + as.factor(Site) + 
+    White + Black + as.factor(SEX), data = HC_CC_M.DF, dist = "lognormal", 
+    robust = T)
+                                             Value      Std. Err    (Naive SE)        z                      p
+(Intercept)                           8.6789903489  0.7247653957  0.7535760482 11.97490 < 0.000000000000000222
+detained_MT7D                        -0.1719388005  0.1033973641  0.1035075138 -1.66289               0.096334
+PreD_NVCA                            -0.7080962035  0.1267540968  0.1281416628 -5.58638         0.000000023186
+AGE_CA                                0.0250076436  0.0049543561  0.0049755698  5.04761         0.000000447378
+C_VIOL                               -0.3711836926  0.1929675248  0.1962647761 -1.92356               0.054410
+Prior_IN                             -0.0212366271  0.1393326228  0.1350954664 -0.15242               0.878858
+Pending_Charge                        0.0137657980  0.1316062217  0.1290559616  0.10460               0.916694
+charge_cnt                            0.0375525999  0.0273060332  0.0293705748  1.37525               0.169054
+as.factor(MSCL)Misdemeanor           -0.2512578736  0.1247475718  0.1246679937 -2.01413               0.043996
+as.factor(MSCO)Drug Offenses         -0.2908927148  0.6578135904  0.6970834052 -0.44221               0.658336
+as.factor(MSCO)Property Offenses     -0.8756644469  0.6477707314  0.6852609461 -1.35181               0.176435
+as.factor(MSCO)Public Order Offenses -0.3637133798  0.6608987326  0.6953750666 -0.55033               0.582092
+as.factor(MSCO)Violent Offenses      -0.9323200099  0.6655672743  0.7027972686 -1.40079               0.161277
+as.factor(Site)2                      0.7753088496  0.1550169516  0.1532290696  5.00145         0.000000569020
+as.factor(Site)3                      1.0088298215  0.2188033277  0.2169936961  4.61067         0.000004013743
+White                                 0.2787790778  0.2353424333  0.2346782807  1.18457               0.236188
+Black                                 0.0691614767  0.2487275559  0.2500808758  0.27806               0.780965
+as.factor(SEX)Male                   -0.1744945713  0.1314111263  0.1306501546 -1.32785               0.184227
+Log(scale)                            0.8884409116  0.0301192779  0.0302886354 29.49742 < 0.000000000000000222
+
+Scale= 2.431336 
+
+Log Normal distribution
+Loglik(model)= -5928.2   Loglik(intercept only)= -6017
+	Chisq= 177.6 on 17 degrees of freedom, p= 0.000000000000000000000000000087 
+(Loglikelihood assumes independent observations)
+Number of Newton-Raphson Iterations: 5 
+n= 7644 
+
+                                                2.5 %            97.5 %
+(Intercept)                           7.2584762762128 10.09950442165576
+detained_MT7D                        -0.3745939101235  0.03071630919189
+PreD_NVCA                            -0.9565296681652 -0.45966273880528
+AGE_CA                                0.0152972840228  0.03471800314607
+C_VIOL                               -0.7493930913717  0.00702570610545
+Prior_IN                             -0.2943235495953  0.25185029542616
+Pending_Charge                       -0.2441776565844  0.27170925268013
+charge_cnt                           -0.0159662417231  0.09107144151014
+as.factor(MSCL)Misdemeanor           -0.4957586215036 -0.00675712578934
+as.factor(MSCO)Drug Offenses         -1.5801836604977  0.99839823082056
+as.factor(MSCO)Property Offenses     -2.1452717507733  0.39394285693667
+as.factor(MSCO)Public Order Offenses -1.6590510930737  0.93162433352778
+as.factor(MSCO)Violent Offenses      -2.2368078968478  0.37216787704250
+as.factor(Site)2                      0.4714812074224  1.07913649187196
+as.factor(Site)3                      0.5799831795642  1.43767646346107
+White                                -0.1824836155397  0.74004177109693
+Black                                -0.4183355749054  0.55665852826536
+as.factor(SEX)Male                   -0.4320556460397  0.08306650349870
+                         (Intercept)                        detained_MT7D                            PreD_NVCA                               AGE_CA 
+                   5878.108755499979                       0.842030703479                       0.492581079504                       1.025322957637 
+                              C_VIOL                             Prior_IN                       Pending_Charge                           charge_cnt 
+                      0.689917197212                       0.978987282253                       1.013860982910                       1.038266608359 
+          as.factor(MSCL)Misdemeanor         as.factor(MSCO)Drug Offenses     as.factor(MSCO)Property Offenses as.factor(MSCO)Public Order Offenses 
+                      0.777821765960                       0.747595879660                       0.416585128994                       0.695090393161 
+     as.factor(MSCO)Violent Offenses                     as.factor(Site)2                     as.factor(Site)3                                White 
+                      0.393639402868                       2.171262617331                       2.742390050841                       1.321515359509 
+                               Black                   as.factor(SEX)Male 
+                      1.071609235080                       0.839881413706 
+                                                 2.5 %             97.5 %
+(Intercept)                          1420.091061296471 24330.948544906096
+detained_MT7D                           0.687568436687     1.031192922434
+PreD_NVCA                               0.384223959644     0.631496588890
+AGE_CA                                  1.015414886372     1.035327708473
+C_VIOL                                  0.472653323091     1.007050444279
+Prior_IN                                0.745035396541     1.286403442390
+Pending_Charge                          0.783348454889     1.312205425632
+charge_cnt                              0.984160543059     1.095347255725
+as.factor(MSCL)Misdemeanor              0.609108649060     0.993265652252
+as.factor(MSCO)Drug Offenses            0.205937272190     2.713931253644
+as.factor(MSCO)Property Offenses        0.117036228037     1.482815813616
+as.factor(MSCO)Public Order Offenses    0.190319489927     2.538629411262
+as.factor(MSCO)Violent Offenses         0.106798873865     1.450876529710
+as.factor(Site)2                        1.602365872533     2.942137893867
+as.factor(Site)3                        1.786008389058     4.210900260620
+White                                   0.833198295321     2.096023065848
+Black                                   0.658141335647     1.744832440251
+as.factor(SEX)Male                      0.649173251759     1.086614069783

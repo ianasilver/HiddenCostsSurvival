@@ -1,0 +1,456 @@
+$AGE_CA
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.485071573, df = 7641.149126, p-value = 0.137566117
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.126839249957  0.919617899878
+sample estimates:
+mean in group 0 mean in group 1 
+  35.2482993197   34.8519099948 
+
+
+$C_VIOL
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = -2.296045398, df = 7639.053789, p-value = 0.0217002342
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.04559224412469 -0.00359666220707
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.312663526949  0.337257980115 
+
+
+$Prior_IN
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 2.690747699, df = 7641.709058, p-value = 0.00714471607
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ 0.00831048759877 0.05291400219715
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.465463108320  0.434850863422 
+
+
+$Pending_Charge
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 0.02721399146, df = 7641.998769, p-value = 0.978289767
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.0185849977262  0.0191082839638
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.229199372057  0.228937728938 
+
+
+$charge_cnt
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = -2.166411881, df = 7524.420814, p-value = 0.0303110182
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.2118162083470 -0.0105804426211
+sample estimates:
+mean in group 0 mean in group 1 
+  2.51308215594   2.62428048142 
+
+
+$Misdemeanor
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 0.05117999543, df = 7641.997362, p-value = 0.95918343
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.0195194010923  0.0205659735675
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.276033490319  0.275510204082 
+
+
+$Other
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.001560173, df = 7626.808705, p-value = 0.316587839
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.00500900822645  0.01547473297789
+sample estimates:
+mean in group 0 mean in group 1 
+0.0578231292517 0.0525902668760 
+
+
+$Property
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 0.2719591285, df = 7641.950179, p-value = 0.785660793
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.0178670118740  0.0236231604873
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.311616954474  0.308738880167 
+
+
+$Public
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.078073607, df = 7636.567332, p-value = 0.281034961
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.00685138643352  0.02359654603583
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.137100994244  0.128728414443 
+
+
+$Violent
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = -1.832201103, df = 7640.901229, p-value = 0.0669603642
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.04170131001080  0.00140826971776
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.352433281005  0.372579801151 
+
+
+$County_2
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = -1.646685437, df = 7641.697961, p-value = 0.0996638382
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.04069099751006  0.00353767464246
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.572998430141  0.591575091575 
+
+
+$County_3
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.090167049, df = 7633.921799, p-value = 0.275673975
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.0060560199228  0.0212313208124
+sample estimates:
+mean in group 0 mean in group 1 
+0.1070120355835 0.0994243851387 
+
+
+$White
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.376491889, df = 7641.421166, p-value = 0.168709728
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.00643598161453  0.03678658339370
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.374411302983  0.359236002093 
+
+
+$Black
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = -1.806532572, df = 7641.674523, p-value = 0.0708745138
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.04255312875877  0.00173680222815
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.567765567766  0.588173731031 
+
+
+$Other.1
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.001560173, df = 7626.808705, p-value = 0.316587839
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.00500900822645  0.01547473297789
+sample estimates:
+mean in group 0 mean in group 1 
+0.0578231292517 0.0525902668760 
+
+
+$Male
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 1.874064438, df = 7635.051408, p-value = 0.0609597032
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.000806415321527  0.035866593238847
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.796441653585  0.778911564626 
+
+
+$PreD_FTA
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = -4.776841818, df = 7640.636798, p-value = 0.0000018138912
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ -0.0763858382890 -0.0319344128884
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.533490319205  0.587650444793 
+
+
+$PreD_NCA
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 2.871044763, df = 7637.699156, p-value = 0.00410242555
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ 0.00979400090188 0.05195377513161
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.685243328100  0.654369440084 
+
+
+$PreD_NVCA
+
+	Welch Two Sample t-test
+
+data:  x by HC_CC_M.DF$detained_MT7D
+t = 2.166474516, df = 7639.521623, p-value = 0.0303057632
+alternative hypothesis: true difference in means between group 0 and group 1 is not equal to 0
+95 percent confidence interval:
+ 0.00221632940503 0.04435614573887
+sample estimates:
+mean in group 0 mean in group 1 
+ 0.340920983778  0.317634746206 
+
+
+$AGE_CA
+
+Cohen's d
+
+d estimate: 0.03397168133 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0108737144280  0.0788170770879 
+
+
+$C_VIOL
+
+Cohen's d
+
+d estimate: -0.0525230729518 (negligible)
+95 percent confidence interval:
+            lower             upper 
+-0.09737296526281 -0.00767318064083 
+
+
+$Prior_IN
+
+Cohen's d
+
+d estimate: 0.0615520659247 (negligible)
+95 percent confidence interval:
+          lower           upper 
+0.0166992875359 0.1064048443135 
+
+
+$Pending_Charge
+
+Cohen's d
+
+d estimate: 0.000622532315687 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0442196301936  0.0454646948250 
+
+
+$charge_cnt
+
+Cohen's d
+
+d estimate: -0.0495576478296 (negligible)
+95 percent confidence interval:
+            lower             upper 
+-0.09440669188547 -0.00470860377371 
+
+
+$Misdemeanor
+
+Cohen's d
+
+d estimate: 0.00117076545429 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0436713998104  0.0460129307190 
+
+
+$Other
+
+Cohen's d
+
+d estimate: 0.0229111402115 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0219324923476  0.0677547727707 
+
+
+$Property
+
+Cohen's d
+
+d estimate: 0.0062211875938 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0386210823001  0.0510634574877 
+
+
+$Public
+
+Cohen's d
+
+d estimate: 0.024661419468 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0201824464450  0.0695052853811 
+
+
+$Violent
+
+Cohen's d
+
+d estimate: -0.0419124257203 (negligible)
+95 percent confidence interval:
+            lower             upper 
+-0.08675951012612  0.00293465868551 
+
+
+$County_2
+
+Cohen's d
+
+d estimate: -0.0376686712665 (negligible)
+95 percent confidence interval:
+            lower             upper 
+-0.08251480925289  0.00717746671996 
+
+
+$County_3
+
+Cohen's d
+
+d estimate: 0.0249380624081 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0199058419594  0.0697819667756 
+
+
+$White
+
+Cohen's d
+
+d estimate: 0.0314878721414 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0133570679694  0.0763328122521 
+
+
+$Black
+
+Cohen's d
+
+d estimate: -0.0413252464962 (negligible)
+95 percent confidence interval:
+            lower             upper 
+-0.08617219393682  0.00352170094447 
+
+
+$Other.1
+
+Cohen's d
+
+d estimate: 0.0229111402115 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.0219324923476  0.0677547727707 
+
+
+$Male
+
+Cohen's d
+
+d estimate: 0.0428700683708 (negligible)
+95 percent confidence interval:
+            lower             upper 
+-0.00197724355918  0.08771738030069 
+
+
+$PreD_FTA
+
+Cohen's d
+
+d estimate: -0.109272408752 (negligible)
+95 percent confidence interval:
+           lower            upper 
+-0.1541480224475 -0.0643967950562 
+
+
+$PreD_NCA
+
+Cohen's d
+
+d estimate: 0.0656764424855 (negligible)
+95 percent confidence interval:
+         lower          upper 
+0.020822193819 0.110530691152 
+
+
+$PreD_NVCA
+
+Cohen's d
+
+d estimate: 0.0495590806342 (negligible)
+95 percent confidence interval:
+           lower            upper 
+0.00471003618039 0.09440812508806 
+
+

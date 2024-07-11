@@ -1,0 +1,59 @@
+
+Call:
+matchit(formula = detained_MT7D ~ AGE_CA + C_VIOL + Prior_IN + 
+    Pending_Charge + charge_cnt + as.factor(MSCL) + as.factor(MSCO) + 
+    White + Black + as.factor(SEX) + PreD_NCA + PreD_NVCA, data = Match, 
+    method = "nearest", distance = "logit", replace = F, caliper = 0.05, 
+    ratio = 1)
+
+Summary of Balance for All Data:
+                                       Means Treated Means Control Std. Mean Diff. Var. Ratio eCDF Mean eCDF Max
+distance                                     0.34809       0.17944         0.81899    2.15994   0.27459  0.40486
+AGE_CA                                      35.52125      34.79187         0.06594    0.87926   0.01931  0.06617
+C_VIOL                                       0.26622       0.23584         0.06874          .   0.03038  0.03038
+Prior_IN                                     0.69351       0.40517         0.62542          .   0.28834  0.28834
+Pending_Charge                               0.46309       0.30357         0.31990          .   0.15952  0.15952
+charge_cnt                                   3.14989       1.90025         0.54222    2.75435   0.08356  0.31631
+`as.factor(MSCL)`Felony                      0.66443       0.45074         0.45255          .   0.21369  0.21369
+`as.factor(MSCL)`Misdemeanor                 0.33557       0.54926        -0.45255          .   0.21369  0.21369
+`as.factor(MSCO)`Other Offenses              0.00000       0.00123        -0.03965          .   0.00123  0.00123
+`as.factor(MSCO)`Drug Offenses               0.11186       0.11700        -0.01630          .   0.00514  0.00514
+`as.factor(MSCO)`Property Offenses           0.29083       0.26478         0.05736          .   0.02605  0.02605
+`as.factor(MSCO)`Public Order Offenses       0.25056       0.33374        -0.19196          .   0.08318  0.08318
+`as.factor(MSCO)`Violent Offenses            0.34676       0.28325         0.13343          .   0.06350  0.06350
+White                                        0.74049       0.74261        -0.00483          .   0.00212  0.00212
+Black                                        0.10515       0.08621         0.06174          .   0.01894  0.01894
+`as.factor(SEX)`Female                       0.22819       0.31773        -0.21338          .   0.08955  0.08955
+`as.factor(SEX)`Male                         0.77181       0.68227         0.21338          .   0.08955  0.08955
+PreD_NCA                                     0.83221       0.59360         0.63857          .   0.23862  0.23862
+PreD_NVCA                                    0.40492       0.17980         0.45861          .   0.22512  0.22512
+
+Summary of Balance for Matched Data:
+                                       Means Treated Means Control Std. Mean Diff. Var. Ratio eCDF Mean eCDF Max Std. Pair Dist.
+distance                                     0.30619       0.30537         0.00397    1.01223   0.00097  0.01728         0.00533
+AGE_CA                                      35.83457      35.52099         0.02835    1.05685   0.00828  0.04198         1.00344
+C_VIOL                                       0.24198       0.22963         0.02793          .   0.01235  0.01235         0.76535
+Prior_IN                                     0.67654       0.70370        -0.05891          .   0.02716  0.02716         0.69088
+Pending_Charge                               0.43951       0.46173        -0.04457          .   0.02222  0.02222         0.93589
+charge_cnt                                   2.71111       2.67901         0.01393    0.84911   0.00938  0.05679         0.53246
+`as.factor(MSCL)`Felony                      0.63704       0.61975         0.03660          .   0.01728  0.01728         0.72685
+`as.factor(MSCL)`Misdemeanor                 0.36296       0.38025        -0.03660          .   0.01728  0.01728         0.72685
+`as.factor(MSCO)`Other Offenses              0.00000       0.00000         0.00000          .   0.00000  0.00000         0.00000
+`as.factor(MSCO)`Drug Offenses               0.11605       0.13086        -0.04700          .   0.01481  0.01481         0.70504
+`as.factor(MSCO)`Property Offenses           0.29383       0.28889         0.01087          .   0.00494  0.00494         0.85903
+`as.factor(MSCO)`Public Order Offenses       0.26420       0.28642        -0.05128          .   0.02222  0.02222         0.82621
+`as.factor(MSCO)`Violent Offenses            0.32593       0.29383         0.06744          .   0.03210  0.03210         0.80413
+White                                        0.74321       0.75062        -0.01690          .   0.00741  0.00741         0.83926
+Black                                        0.10370       0.11111        -0.02415          .   0.00741  0.00741         0.55542
+`as.factor(SEX)`Female                       0.23457       0.26420        -0.07060          .   0.02963  0.02963         0.82370
+`as.factor(SEX)`Male                         0.76543       0.73580         0.07060          .   0.02963  0.02963         0.82370
+PreD_NCA                                     0.81975       0.84444        -0.06608          .   0.02469  0.02469         0.50219
+PreD_NVCA                                    0.36049       0.37778        -0.03521          .   0.01728  0.01728         0.80984
+
+Sample Sizes:
+          Control Treated
+All          1624     447
+Matched       405     405
+Unmatched    1219      42
+Discarded       0       0
+

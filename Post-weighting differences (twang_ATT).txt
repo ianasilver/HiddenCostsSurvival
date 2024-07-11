@@ -1,0 +1,532 @@
+$AGE_CA
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           73619933.751 391114235.793
+Deg. of Freedom                     3         31594
+
+Residual standard error: 111.262677004
+Estimated effects may be unbalanced
+
+$C_VIOL
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares           3613.5281144 105897.5259953
+Deg. of Freedom                     3          31594
+
+Residual standard error: 1.83079872017
+Estimated effects may be unbalanced
+
+$Prior_IN
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           4269.8843401 47643.3464634
+Deg. of Freedom                     3         31594
+
+Residual standard error: 1.22800128832
+Estimated effects may be unbalanced
+
+$Pending_Charge
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           1969.5492202 51180.7365757
+Deg. of Freedom                     3         31594
+
+Residual standard error: 1.27277301518
+Estimated effects may be unbalanced
+
+$charge_cnt
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares          215516.658034 896582.687940
+Deg. of Freedom                     3         31594
+
+Residual standard error: 5.32712475435
+Estimated effects may be unbalanced
+
+$Misdemeanor
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           24788.026351 364901.724566
+Deg. of Freedom                     3         31594
+
+Residual standard error: 3.39848729781
+Estimated effects may be unbalanced
+
+$Drug
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares          1039.51715662 30004.62021975
+Deg. of Freedom                     3          31594
+
+Residual standard error: 0.974522252012
+Estimated effects may be unbalanced
+
+$Property
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           4888.2696253 96707.6356136
+Deg. of Freedom                     3         31594
+
+Residual standard error: 1.74955691778
+Estimated effects may be unbalanced
+
+$Public
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares           3551.5945235 140779.3877253
+Deg. of Freedom                     3          31594
+
+Residual standard error: 2.1108979062
+Estimated effects may be unbalanced
+
+$Violent
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares           5231.1216759 129682.3152304
+Deg. of Freedom                     3          31594
+
+Residual standard error: 2.02599360786
+Estimated effects may be unbalanced
+
+$County_2
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares          17520.3460935 223300.6278707
+Deg. of Freedom                     3          31594
+
+Residual standard error: 2.65853673215
+Estimated effects may be unbalanced
+
+$County_3
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares            582.2585264 42148.8641190
+Deg. of Freedom                     3         31594
+
+Residual standard error: 1.15502299538
+Estimated effects may be unbalanced
+
+$White
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares          11352.5810715 185125.1259136
+Deg. of Freedom                     3          31594
+
+Residual standard error: 2.42064095321
+Estimated effects may be unbalanced
+
+$Black
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           17056.447256 219864.122847
+Deg. of Freedom                     3         31594
+
+Residual standard error: 2.6380005202
+Estimated effects may be unbalanced
+
+$Other
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares            259.9904378 35165.0272251
+Deg. of Freedom                     3         31594
+
+Residual standard error: 1.05500173071
+Estimated effects may be unbalanced
+
+$Male
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares          32358.5729692 242272.7541126
+Deg. of Freedom                     3          31594
+
+Residual standard error: 2.76917231616
+Estimated effects may be unbalanced
+
+$PreD_FTA
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares          15129.9998932 154568.2203813
+Deg. of Freedom                     3          31594
+
+Residual standard error: 2.21186082344
+Estimated effects may be unbalanced
+
+$PreD_NCA
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D      Residuals
+Sum of Squares          16255.0772752 118056.7080125
+Deg. of Freedom                     3          31594
+
+Residual standard error: 1.93304973267
+Estimated effects may be unbalanced
+
+$PreD_NVCA
+Call:
+   aov(formula = x ~ HC_CC$detained_MT137D)
+
+Terms:
+                HC_CC$detained_MT137D     Residuals
+Sum of Squares           2121.5381659 38134.3543715
+Deg. of Freedom                     3         31594
+
+Residual standard error: 1.09864122705
+Estimated effects may be unbalanced
+
+$AGE_CA
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0   40.9460791548   36.9521320394   44.9400262703     0
+2-0  179.0768088353  172.7872987984  185.3663188722     0
+3-0   63.1292693417   58.5638450857   67.6946935978     0
+2-1  138.1307296804  131.3667769963  144.8946823645     0
+3-1   22.1831901869   16.9835538490   27.3828265248     0
+3-2 -115.9475394935 -123.0638967773 -108.8311822098     0
+
+
+$C_VIOL
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr          p adj
+1-0  0.288064247124  0.222344875055  0.353783619194 0.000000000000
+2-0  1.236147048469  1.132654779218  1.339639317720 0.000000000000
+3-0  0.479815973023  0.404693091657  0.554938854389 0.000000000000
+2-1  0.948082801345  0.836783700417  1.059381902272 0.000000000000
+3-1  0.191751725899  0.106193047920  0.277310403877 0.000000051111
+3-2 -0.756331075446 -0.873428903380 -0.639233247512 0.000000000000
+
+
+$Prior_IN
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0  0.288254742412  0.244173723193  0.332335761630     0
+2-0  1.359142136179  1.289725089635  1.428559182723     0
+3-0  0.497771289807  0.447382902442  0.548159677173     0
+2-1  1.070887393767  0.996233944525  1.145540843009     0
+3-1  0.209516547396  0.152128389087  0.266904705704     0
+3-2 -0.861370846372 -0.939913769730 -0.782827923013     0
+
+
+$Pending_Charge
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff              lwr             upr          p adj
+1-0  0.190524862872  0.1448366927728  0.236213032971 0.000000000000
+2-0  0.928961626643  0.8570137024221  1.000909550864 0.000000000000
+3-0  0.326747717982  0.2745222192574  0.378973216707 0.000000000000
+2-1  0.738436763771  0.6610615227275  0.815812004815 0.000000000000
+3-1  0.136222855110  0.0767423806342  0.195703329586 0.000000024058
+3-2 -0.602213908661 -0.6836204302458 -0.520807387076 0.000000000000
+
+
+$charge_cnt
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+              diff            lwr            upr p adj
+1-0  2.20521516321  2.01398972158  2.39644060483     0
+2-0  9.61131511770  9.31018085136  9.91244938403     0
+3-0  3.58465207501  3.36606498701  3.80323916300     0
+2-1  7.40609995449  7.08224993801  7.72994997096     0
+3-1  1.37943691180  1.13048450300  1.62838932060     0
+3-2 -6.02666304269 -6.36738577261 -5.68594031277     0
+
+
+$Misdemeanor
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr          p adj
+1-0  0.758858238686  0.636864242986  0.880852234387 0.000000000000
+2-0  3.292982324191  3.100871002179  3.485093646203 0.000000000000
+3-0  1.139422712817  0.999973107961  1.278872317672 0.000000000000
+2-1  2.534124085505  2.327521045753  2.740727125257 0.000000000000
+3-1  0.380564474130  0.221743038916  0.539385909345 0.000000004478
+3-2 -2.153559611375 -2.370926750892 -1.936192471857 0.000000000000
+
+
+$Drug
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff              lwr             upr          p adj
+1-0  0.148597151355  0.1136151570129  0.183579145696 0.000000000000
+2-0  0.662454042716  0.6073657808638  0.717542304569 0.000000000000
+3-0  0.259993823190  0.2200064020056  0.299981244374 0.000000000000
+2-1  0.513856891362  0.4546131037799  0.573100678944 0.000000000000
+3-1  0.111396671835  0.0658543439843  0.156938999686 0.000000001981
+3-2 -0.402460219527 -0.4647906317818 -0.340129807272 0.000000000000
+
+
+$Property
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr          p adj
+1-0  0.325196034907  0.262392963893  0.387999105921 0.000000000000
+2-0  1.451031348830  1.352131555199  1.549931142460 0.000000000000
+3-0  0.534798410491  0.463009111466  0.606587709517 0.000000000000
+2-1  1.125835313923  1.019475117236  1.232195510609 0.000000000000
+3-1  0.209602375584  0.127840369044  0.291364382125 0.000000000271
+3-2 -0.916232938338 -1.028134543175 -0.804331333502 0.000000000000
+
+
+$Public
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+                diff                lwr             upr          p adj
+1-0  0.2688819631228  0.193107994433872  0.344655931812 0.000000000000
+2-0  1.2732438855325  1.153918034982748  1.392569736082 0.000000000000
+3-0  0.3667381464217  0.280121998378432  0.453354294465 0.000000000000
+2-1  1.0043619224097  0.876034850447827  1.132688994372 0.000000000000
+3-1  0.0978561832989 -0.000792364033222  0.196504730631 0.052802612073
+3-2 -0.9065057391108 -1.041518702078381 -0.771492776143 0.000000000000
+
+
+$Violent
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr          p adj
+1-0  0.361995622774  0.289269426138  0.434721819411 0.000000000000
+2-0  1.476132088020  1.361605748421  1.590658427620 0.000000000000
+3-0  0.593024404007  0.509892120935  0.676156687078 0.000000000000
+2-1  1.114136465246  0.990970950350  1.237301980142 0.000000000000
+3-1  0.231028781232  0.136348064684  0.325709497780 0.000000002184
+3-2 -0.883107684014 -1.012690170759 -0.753525197269 0.000000000000
+
+
+$County_2
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0  0.615241957754  0.519809640299  0.710674275209     0
+2-0  2.731417320971  2.581134279877  2.881700362064     0
+3-0  1.043811305128  0.934723977648  1.152898632607     0
+2-1  2.116175363217  1.954555877244  2.277794849189     0
+3-1  0.428569347374  0.304328006338  0.552810688409     0
+3-2 -1.687606015843 -1.857645940707 -1.517566090979     0
+
+
+$County_3
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+                diff              lwr             upr          p adj
+1-0  0.1222046736175  0.0807433239094  0.163666023326 0.000000000000
+2-0  0.4942814277786  0.4289897332235  0.559573122334 0.000000000000
+3-0  0.1940095418243  0.1466156614914  0.241403422157 0.000000000000
+2-1  0.3720767541611  0.3018598485445  0.442293659778 0.000000000000
+3-1  0.0718048682068  0.0178272029228  0.125782533491 0.003535323591
+3-2 -0.3002718859543 -0.3741471200166 -0.226396651892 0.000000000000
+
+
+$White
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr          p adj
+1-0  0.509752426377  0.422859748500  0.596645104254 0.000000000000
+2-0  2.226532318271  2.089697164014  2.363367472529 0.000000000000
+3-0  0.777188032471  0.677862245778  0.876513819164 0.000000000000
+2-1  1.716779891894  1.569622720113  1.863937063676 0.000000000000
+3-1  0.267435606094  0.154311843479  0.380559368709 0.000000007507
+3-2 -1.449344285800 -1.604168404206 -1.294520167394 0.000000000000
+
+
+$Black
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0  0.610161249813  0.515466111677  0.704856387949     0
+2-0  2.719095832069  2.569973671828  2.868217992311     0
+3-0  0.980021383334  0.871776715070  1.088266051597     0
+2-1  2.108934582256  1.948563546975  2.269305617537     0
+3-1  0.369860133520  0.246578510845  0.493141756196     0
+3-2 -1.739074448736 -1.907800878136 -1.570348019336     0
+
+
+$Other
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff               lwr              upr          p adj
+1-0  0.084935434489  0.04706450388895  0.1228063650891 0.000000049891
+2-0  0.329277916430  0.26964027195762  0.3889155609033 0.000000000000
+3-0  0.130216405912  0.08692668269769  0.1735061291263 0.000000000000
+2-1  0.244342481941  0.18020613379353  0.3084788300893 0.000000000000
+3-1  0.045280971423 -0.00402240220856  0.0945843450545 0.085063485852
+3-2 -0.199061510518 -0.26653938767239 -0.1315836333645 0.000000000000
+
+
+$Male
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0  0.820166986419  0.720763232328  0.919570740510     0
+2-0  3.735150475580  3.578613373063  3.891687578096     0
+3-0  1.376851799735  1.263224779409  1.490478820061     0
+2-1  2.914983489160  2.746638173147  3.083328805173     0
+3-1  0.556684813316  0.427273141866  0.686096484766     0
+3-2 -2.358298675845 -2.535414849144 -2.181182502545     0
+
+
+$PreD_FTA
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0  0.561348629274  0.481950439391  0.640746819156     0
+2-0  2.578824661948  2.453791531128  2.703857792768     0
+3-0  0.887535282624  0.796776338778  0.978294226470     0
+2-1  2.017476032674  1.883011157692  2.151940907657     0
+3-1  0.326186653350  0.222819808136  0.429553498564     0
+3-2 -1.691289379325 -1.832759927268 -1.549818831381     0
+
+
+$PreD_NCA
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff             lwr             upr p adj
+1-0  0.566359358075  0.496969526626  0.635749189524     0
+2-0  2.678874800295  2.569602436706  2.788147163884     0
+3-0  0.910977308444  0.831658777060  0.990295839827     0
+2-1  2.112515442220  1.995000231550  2.230030652890     0
+3-1  0.344617950369  0.254280777979  0.434955122758     0
+3-2 -1.767897491852 -1.891535291295 -1.644259692409     0
+
+
+$PreD_NVCA
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x ~ HC_CC$detained_MT137D)
+
+$`HC_CC$detained_MT137D`
+               diff              lwr             upr         p adj
+1-0  0.202024027493  0.1625865891899  0.241461465795 0.00000000000
+2-0  0.962733237577  0.9006287186980  1.024837756456 0.00000000000
+3-0  0.341215925655  0.2961355497214  0.386296301588 0.00000000000
+2-1  0.760709210084  0.6939199014256  0.827498518743 0.00000000000
+3-1  0.139191898162  0.0878491208686  0.190534675456 0.00000000002
+3-2 -0.621517311922 -0.6917863698745 -0.551248253969 0.00000000000
+
+

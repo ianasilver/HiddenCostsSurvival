@@ -1,0 +1,35 @@
+$MSCL
+x
+     Felony Misdemeanor        <NA> 
+      16074       15524           0 
+
+$MSCO
+x
+       Other Offenses         Drug Offenses     Property Offenses Public Order Offenses      Violent Offenses                  <NA> 
+                 1848                  4600                  8799                  5863                 10488                     0 
+
+$White
+x
+    0     1  <NA> 
+19073 12525     0 
+
+$Black
+x
+    0     1  <NA> 
+14464 17134     0 
+
+$Other
+x
+    0     1  <NA> 
+29659  1939     0 
+
+$SEX
+x
+Female   Male   <NA> 
+  8668  22930      0 
+
+$Site
+x
+    1     2     3  <NA> 
+11308 17257  3033     0 
+
